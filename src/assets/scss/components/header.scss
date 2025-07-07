@@ -1,116 +1,114 @@
 .Header {
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    top: 40px;
-    padding: 0 60px;
-    @include mob--screen {
-      top: 13px;
-    }
-    .Header_inner {
-        padding: 11px 5px;
-        width: 100%;
-        border-top: 2px solid $basic-color;
-        border-bottom: 1px solid $basic-color;
-        @include flexbox(space-between);
-        .Header_logo {
-            margin-right: 25px;
-            order: 2;
-            > a {
-              font-family: 'GmarketSans';
-              font-weight: 500;
-              font-size: 17px;
-              line-height: 1;
-              letter-spacing: -0.03em;
-              color: $basic-color;
-              @include mob--screen {
-                font-size: 14px;
-              }
-            }
-        } 
-        .Resume {
-            position: relative;
-            font-family: 'GmarketSans';
-            font-weight: 500;
-            color: $basic-color;
-            order: 3;
-            font-size: 17px;
-            font-weight: 500;
-            @include mob--screen {
-              font-size: 14px;
-              display: none;
-            }
-            > span.dot {
-                position: absolute;
-                top: 4px; 
-                left: -16px;
-                width: 9px;
-                height: 9px; 
-                background: #00ff5a; 
-                border-radius: 9px; 
-                transition: all 0.4s;
-                @include mob--screen {
-                  left: -14px;
-                  width: 6px;
-                  height: 6px;
-                }
-                &::before {
-                    content: ''; 
-                    position: absolute; 
-                    top: -5px; 
-                    left: -6px; 
-                    width: 21px; 
-                    height: 20px;
-                    background-color: #00ff5a;
-                    border-radius: 15px;
-                    opacity: 0.1;
-                    animation: zoomIn 2s infinite both;
-                    @include mob--screen {
-                      width: 18px;
-                      height: 17px;
-                    }
-                }
-            }
-            @-webkit-keyframes zoomIn {
-                0% {
-                  opacity: 0;
-                  -webkit-transform: scale3d(.4, .4, .4);
-                      transform: scale3d(.4, .4, .4);
-                }
-                
-                50% {
-                  opacity: 0.3;
-                }
-                
-                100% {
-                  opacity: 0;
-                }
-                }
-                
-                @keyframes zoomIn {
-                0% {
-                  opacity: 0;
-                  -webkit-transform: scale3d(.4, .4, .4);
-                      transform: scale3d(.4, .4, .4);
-                }
-                
-                50% {
-                  opacity: 0.3;
-                }
-                
-                100% {
-                  opacity: 0;
-                }
-            }
-        }
-        @include mob--screen {
-          padding: 7px 3px;
-        }
-    }
-    @include td-screen {
-      padding: 0 20px;
-    }
-    @include mob--screen {
-      padding: 0 15px;
-    }
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	top: 40px;
+	padding: 0 60px;
+	@include mob--screen {
+		top: 13px;
+	}
+	.Header_inner {
+		padding: 11px 5px;
+		width: 100%;
+		border-top: 2px solid $basic-color;
+		border-bottom: 1px solid $basic-color;
+		@include flexbox(space-between);
+		.Header_logo {
+			margin-right: 25px;
+			order: 2;
+			> a {
+				font-weight: 500;
+				font-size: 19px;
+				line-height: 1;
+				letter-spacing: -0.02em;
+				color: $basic-color;
+				@include mob--screen {
+					font-size: 14px;
+				}
+			}
+		}
+		.Resume {
+			position: relative;
+			font-weight: 500;
+			color: $basic-color;
+			order: 3;
+			font-size: 19px;
+			font-weight: 500;
+			@include mob--screen {
+				font-size: 14px;
+				display: none;
+			}
+			> span.dot {
+				position: absolute;
+				top: 4px;
+				left: -16px;
+				width: 9px;
+				height: 9px;
+				background: #00ff5a;
+				border-radius: 9px;
+				transition: all 0.4s;
+				@include mob--screen {
+					left: -14px;
+					width: 6px;
+					height: 6px;
+				}
+				&::before {
+					content: "";
+					position: absolute;
+					top: -5px;
+					left: -6px;
+					width: 21px;
+					height: 20px;
+					background-color: #00ff5a;
+					border-radius: 15px;
+					opacity: 0.1;
+					animation: zoomIn 2s infinite both;
+					@include mob--screen {
+						width: 18px;
+						height: 17px;
+					}
+				}
+			}
+			@-webkit-keyframes zoomIn {
+				0% {
+					opacity: 0;
+					-webkit-transform: scale3d(0.4, 0.4, 0.4);
+					transform: scale3d(0.4, 0.4, 0.4);
+				}
+
+				50% {
+					opacity: 0.3;
+				}
+
+				100% {
+					opacity: 0;
+				}
+			}
+
+			@keyframes zoomIn {
+				0% {
+					opacity: 0;
+					-webkit-transform: scale3d(0.4, 0.4, 0.4);
+					transform: scale3d(0.4, 0.4, 0.4);
+				}
+
+				50% {
+					opacity: 0.3;
+				}
+
+				100% {
+					opacity: 0;
+				}
+			}
+		}
+		@include mob--screen {
+			padding: 7px 3px;
+		}
+	}
+	@include td-screen {
+		padding: 0 20px;
+	}
+	@include mob--screen {
+		padding: 0 15px;
+	}
 }
