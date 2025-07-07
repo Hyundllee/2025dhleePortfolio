@@ -10,7 +10,7 @@ const AboutMe = () => {
 						<h2 className="h2tit highlightFont">ABOUT ME</h2>
 						<div className="textBox">
 							<p>
-								안녕하세요. 프론트엔드 개발자 이동현입니다.
+								안녕하세요. 이동현입니다.
 								<br />
 								탄탄한 코드를 기반으로 사용자와 개발자 모두를 이어줄 수 있는 단순하면서도
 								<br />
