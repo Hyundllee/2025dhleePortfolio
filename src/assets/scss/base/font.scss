@@ -31,24 +31,21 @@
 /* GmarketSans */
 @font-face {
 	font-family: "GmarketSans";
-	src: url("/src/assets/font/GmarketSansLight.eot") format("eot"),
-		url("/src/assets/font/GmarketSansLight.woff") format("woff");
+	src: url("../../font/GmarketSansLight.woff2") format("woff2");
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: "GmarketSans";
-	src: url("/src/assets/font/GmarketSansMedium.eot") format("eot"),
-		url("/src/assets/font/GmarketSansMedium.woff") format("woff");
+	src: url("../../font/GmarketSansMedium.woff2") format("woff2");
 	font-weight: 500;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: "GmarketSans";
-	src: url("/src/assets/font/GmarketSansBold.eot") format("eot"),
-		url("/src/assets/font/GmarketSansBold.woff") format("woff");
+	src: url("../../font/GmarketSansBold.woff2") format("woff2");
 	font-weight: 600;
 	font-style: normal;
 	font-display: swap;
