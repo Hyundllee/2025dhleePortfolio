@@ -1,110 +1,114 @@
 /* Pretendard */
 @font-face {
-    font-family: 'Pretendard';
-    src: url('/src/assets/font/Pretendard-Regular.eot') format('eot'), 
-    url('/src/assets/font/Pretendard-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
+	font-family: "Pretendard";
+	src: url("../../font/Pretendard-Regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
 }
 @font-face {
-    font-family: 'Pretendard';
-    src: url('/src/assets/font/Pretendard-Medium.eot') format('eot'), 
-    url('/src/assets/font/Pretendard-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
+	font-family: "Pretendard";
+	src: url("../../font/Pretendard-Medium.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
 }
 @font-face {
-    font-family: 'Pretendard';
-    src: url('/src/assets/font/Pretendard-SemiBold.eot') format('eot'), 
-    url('/src/assets/font/Pretendard-SemiBold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
+	font-family: "Pretendard";
+	src: url("../../font/Pretendard-SemiBold.woff2") format("woff2");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
 }
 @font-face {
-    font-family: 'Pretendard';
-    src: url('/src/assets/font/Pretendard-Bold.eot') format('eot'), 
-    url('/src/assets/font/Pretendard-Bold.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
+	font-family: "Pretendard";
+	src: url("../../font/Pretendard-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
 }
 
 /* GmarketSans */
 @font-face {
-    font-family: 'GmarketSans';
-    src: url('/src/assets/font/GmarketSansLight.eot') format('eot'), 
-    url('/src/assets/font/GmarketSansLight.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
+	font-family: "GmarketSans";
+	src: url("/src/assets/font/GmarketSansLight.eot") format("eot"),
+		url("/src/assets/font/GmarketSansLight.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
 }
 @font-face {
-    font-family: 'GmarketSans';
-    src: url('/src/assets/font/GmarketSansMedium.eot') format('eot'), 
-    url('/src/assets/font/GmarketSansMedium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
+	font-family: "GmarketSans";
+	src: url("/src/assets/font/GmarketSansMedium.eot") format("eot"),
+		url("/src/assets/font/GmarketSansMedium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
 }
 @font-face {
-    font-family: 'GmarketSans';
-    src: url('/src/assets/font/GmarketSansBold.eot') format('eot'), 
-    url('/src/assets/font/GmarketSansBold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
+	font-family: "GmarketSans";
+	src: url("/src/assets/font/GmarketSansBold.eot") format("eot"),
+		url("/src/assets/font/GmarketSansBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
 }
-
-
-
 
 /* ChalkboardSE */
 @font-face {
-    font-family: 'ChalkboardSE';
-    src: url('/src/assets/font/ChalkboardSE-Regular.eot') format('eot'), 
-    url('/src/assets/font/ChalkboardSE-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
+	font-family: "ChalkboardSE";
+	src: url("/src/assets/font/ChalkboardSE-Regular.eot") format("eot"),
+		url("/src/assets/font/ChalkboardSE-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
 }
 @font-face {
-    font-family: 'ChalkboardSE';
-    src: url('/src/assets/font/ChalkboardSE-Bold.eot') format('eot'), 
-    url('/src/assets/font/ChalkboardSE-Bold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
+	font-family: "ChalkboardSE";
+	src: url("/src/assets/font/ChalkboardSE-Bold.eot") format("eot"),
+		url("/src/assets/font/ChalkboardSE-Bold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
 }
 
 /* Montserrat */
 @font-face {
-    font-family: 'Montserrat';
-    src: url('/src/assets/font/Montserrat-Regular.eot') format('eot'), 
-    url('/src/assets/font/Montserrat-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
+	font-family: "Montserrat";
+	src: url("/src/assets/font/Montserrat-Regular.eot") format("eot"),
+		url("/src/assets/font/Montserrat-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
 }
 @font-face {
-    font-family: 'Montserrat';
-    src: url('/src/assets/font/Montserrat-Medium.eot') format('eot'), 
-    url('/src/assets/font/Montserrat-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
+	font-family: "Montserrat";
+	src: url("/src/assets/font/Montserrat-Medium.eot") format("eot"),
+		url("/src/assets/font/Montserrat-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
 }
 @font-face {
-    font-family: 'Montserrat';
-    src: url('/src/assets/font/Montserrat-Bold.eot') format('eot'), 
-    url('/src/assets/font/Montserrat-Bold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
+	font-family: "Montserrat";
+	src: url("/src/assets/font/Montserrat-Bold.eot") format("eot"),
+		url("/src/assets/font/Montserrat-Bold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
 }
 
 /* SCDream */
 @font-face {
-    font-family: 'SCDream';
-    src: url('/src/assets/font/SCDream4.eot') format('eot'), 
-    url('/src/assets/font/SCDream4.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
+	font-family: "SCDream";
+	src: url("/src/assets/font/SCDream4.eot") format("eot"), url("/src/assets/font/SCDream4.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
 }
 @font-face {
-    font-family: 'SCDream';
-    src: url('/src/assets/font/SCDream5.eot') format('eot'), 
-    url('/src/assets/font/SCDream5.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
+	font-family: "SCDream";
+	src: url("/src/assets/font/SCDream5.eot") format("eot"), url("/src/assets/font/SCDream5.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
 }
