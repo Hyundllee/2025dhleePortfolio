@@ -9,7 +9,7 @@ const App: React.FC = () => {
 	const [portfolioList] = useState([
 		{
 			id: "nicebizinfo",
-			period: "2024.12 - 2025.05 ~ 웹 접근성 심사 중",
+			period: "2024.12 - 2025.05 ~ 웹 접근성 마크 취득",
 			imgSrc: "/assets/images/thumImg_nicebizinfo.png",
 			title: "나이스비즈인포 / Nuxt3 + Quasar",
 			link: "https://www.nicebizinfo.com/cm/CM0100M001GE.nice",
