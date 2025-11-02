@@ -96,7 +96,7 @@ const Intro = () => {
 							오늘도 열정적인 마음을 담아 개발하고 있습니다! <br />
 						</p>
 						{/* <p className="myName">
-              - Donghyun Lee -
+        - Donghyun Lee -
             </p> */}
 					</div>
 				</div>

@@ -66,7 +66,7 @@ const NiceBizinfo: React.FC<PortfoliopageProps> = () => (
 					</ul>
 				</li>
 				<li>
-					웹 접근성 심사마크 취득
+					웹 접근성 심사마크 단독 취득 
 					<ul className="listStyle2">
 						<li>
 							Nuxt 3은 SSR(Server Side Rendering) 환경이라 초기 렌더링 시점의 DOM 구조, ARIA 속성, 포커스
