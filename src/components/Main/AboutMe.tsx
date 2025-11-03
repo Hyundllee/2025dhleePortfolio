@@ -38,7 +38,7 @@ const AboutMe = () => {
             >
               <span>자기소개 더보기</span>
             </a>
-            {/* <div className="moreBox">
+            <div className="moreBox">
               <a
                 href="https://cake-date-472.notion.site/215af8d618ed80d7abe9c1e4df178f8a"
                 target="_blank"
@@ -47,7 +47,7 @@ const AboutMe = () => {
                 <span>경력기술서 보기</span>
               </a>
               <p>&#8251; KOSA 정식 인증완료 프로젝트 모음입니다.</p>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
