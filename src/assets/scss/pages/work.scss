@@ -1,301 +1,308 @@
 .workPage {
-	position: fixed;
-	z-index: 99;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	width: 100%;
-	height: 100vh;
-	background-color: rgba(0, 0, 0, 0.8);
-	@include flexbox();
-	.modalW {
-		position: relative;
-		@include tablet-screen {
-			width: 100%;
-		}
-		.arrow {
-			position: absolute;
-			top: 50%;
-			transform: translateY(-50%);
-			color: #fff;
-			font-size: 50px;
-			font-size: 30px;
-			&.left {
-				left: -50px;
-				@include tablet-screen {
-					left: 40px;
-				}
-				@include mob--screen {
-					left: 15px;
-				}
-			}
-			&.right {
-				right: -50px;
-				@include tablet-screen {
-					right: 40px;
-				}
-				@include mob--screen {
-					right: 15px;
-				}
-			}
-			@include tablet-screen {
-				position: absolute;
-				top: 170px;
-				color: #000;
-				z-index: 2;
-			}
-			@include mob--screen {
-				top: 122px;
-			}
-		}
-		.tablet {
-			display: none;
-			@include tablet-screen {
-				display: block;
-			}
-		}
-		.desk {
-			display: block;
-			@include tablet-screen {
-				display: none;
-			}
-		}
-		.modalClose {
-			position: absolute;
-			top: -37px;
-			right: -45px;
-			color: #fff;
-			font-size: 40px;
-			@include tablet-screen {
-				color: #000;
-				z-index: 2;
-				top: 20px;
-				right: 40px;
-			}
-			@include mob--screen {
-				top: 10px;
-				right: 15px;
-				font-size: 25px;
-			}
-		}
-		.modal {
-			position: relative;
-			padding: 40px;
-			width: 870px;
-			height: 80vh;
-			overflow-y: auto;
-			background-color: #fff;
-			&::-webkit-scrollbar {
-				width: 10px;
-			}
-			&::-webkit-scrollbar-thumb {
-				height: 30%;
-				background: #ccc;
-			}
-			&::-webkit-scrollbar-track {
-				background: transparent;
-			}
-			@include tablet-screen {
-				width: 100%;
-				height: 100vh;
-			}
-			@include mob--screen {
-				padding: 30px 15px;
-			}
-			.modalThumImg {
-				position: relative;
-				z-index: 2;
-				margin: 0 auto;
-				text-align: center;
-				height: 250px;
-				margin-bottom: 30px;
-				img {
-					height: 100%;
-					border: 1px solid #ccc;
-					border-radius: 20px;
-				}
-				@include mob--screen {
-					height: 155px;
-				}
-			}
-			&::before {
-				content: "";
-				position: absolute;
-				z-index: 1;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 170px;
-				background-color: #e0ecf8;
-				@include mob--screen {
-					height: 122px;
-				}
-			}
-			.titleBox {
-				display: flex;
-				gap: 15px;
-				justify-content: space-between;
-				align-items: center;
-				flex-wrap: wrap;
-				padding-bottom: 15px;
-				border-bottom: 1px solid #000;
-				h2 {
-					font-weight: 500;
-					font-size: 28px;
-					.period {
-						margin-top: 10px;
-						padding-left: 2px;
-						display: block;
-						font-size: 17px;
-						@include mob--screen {
-							font-size: 15px;
-						}
-					}
-					@include mob--screen {
-						font-size: 21px;
-					}
-				}
-				.view {
-					display: flex;
-					justify-content: space-between;
-					min-width: 150px;
-					padding: 10px 20px;
-					border: 1px solid #000;
-					font-weight: 500;
-					transition: all 0.4s;
-					&:hover {
-						background-color: #000;
-						color: #fff;
-						border: 1px solid #000;
-					}
-					@include mob--screen {
-						min-width: 115px;
-						padding: 7px 10px;
-					}
-					&.Interior {
-						justify-content: center;
-					}
-				}
-			}
-			.modalContent {
-				p.causeText {
-					margin-top: 15px;
-					font-size: 15px;
-					color: #1279ff;
-				}
-				> div.content {
-					+ .content {
-						margin-top: 30px;
-					}
-				}
-				> div.introText {
-					position: relative;
-					padding: 20px;
-					background-color: rgb(241, 241, 239);
-					border-radius: 15px;
-					margin-top: 30px;
-					@include mob--screen {
-						padding: 15px;
-						margin-top: 15px;
-					}
-					> p {
-						position: relative;
-						font-size: 16px;
-						line-height: 1.4;
-						+ p {
-							margin-top: 15px;
-						}
-						@include mob--screen {
-							font-size: 15px;
-						}
-					}
-				}
-				.projectImage {
-					margin-top: 25px;
-					border: 1px solid #ddd;
-					border-radius: 15px;
-					overflow: hidden;
-					img {
-						width: 100%;
-					}
-				}
-				h3.contentTit {
-					font-size: 18px;
-					margin-bottom: 15px;
-					// font-weight: 500;
-				}
-				.characteristic {
-					margin-top: 30px;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  @include flexbox();
+  .modalW {
+    position: relative;
+    @include tablet-screen {
+      width: 100%;
+    }
+    .arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #fff;
+      font-size: 50px;
+      font-size: 30px;
+      &.left {
+        left: -50px;
+        @include tablet-screen {
+          left: 40px;
+        }
+        @include mob--screen {
+          left: 15px;
+        }
+      }
+      &.right {
+        right: -50px;
+        @include tablet-screen {
+          right: 40px;
+        }
+        @include mob--screen {
+          right: 15px;
+        }
+      }
+      @include tablet-screen {
+        position: absolute;
+        top: 170px;
+        color: #000;
+        z-index: 2;
+      }
+      @include mob--screen {
+        top: 122px;
+      }
+    }
+    .tablet {
+      display: none;
+      @include tablet-screen {
+        display: block;
+      }
+    }
+    .desk {
+      display: block;
+      @include tablet-screen {
+        display: none;
+      }
+    }
+    .modalClose {
+      position: absolute;
+      top: -37px;
+      right: -45px;
+      color: #fff;
+      font-size: 40px;
+      @include tablet-screen {
+        color: #000;
+        z-index: 2;
+        top: 20px;
+        right: 40px;
+      }
+      @include mob--screen {
+        top: 10px;
+        right: 15px;
+        font-size: 25px;
+      }
+    }
+    .modal {
+      position: relative;
+      padding: 40px;
+      width: 870px;
+      height: 80vh;
+      overflow-y: auto;
+      background-color: #fff;
+      &::-webkit-scrollbar {
+        width: 10px;
+      }
+      &::-webkit-scrollbar-thumb {
+        height: 30%;
+        background: #ccc;
+      }
+      &::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      @include tablet-screen {
+        width: 100%;
+        height: 100vh;
+      }
+      @include mob--screen {
+        padding: 30px 15px;
+      }
+      .modalThumImg {
+        position: relative;
+        z-index: 2;
+        margin: 0 auto;
+        text-align: center;
+        height: 250px;
+        margin-bottom: 30px;
+        img {
+          height: 100%;
+          border: 1px solid #ccc;
+          border-radius: 20px;
+        }
+        @include mob--screen {
+          height: 155px;
+        }
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 170px;
+        background-color: #e0ecf8;
+        @include mob--screen {
+          height: 122px;
+        }
+      }
+      .titleBox {
+        display: flex;
+        gap: 15px;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #000;
+        h2 {
+          font-weight: 500;
+          font-size: 28px;
+          .period {
+            margin-top: 10px;
+            padding-left: 2px;
+            display: block;
+            font-size: 17px;
+            @include mob--screen {
+              font-size: 15px;
+            }
+          }
+          @include mob--screen {
+            font-size: 21px;
+          }
+        }
+        .view {
+          display: flex;
+          justify-content: space-between;
+          min-width: 150px;
+          padding: 10px 20px;
+          border: 1px solid #000;
+          font-weight: 500;
+          transition: all 0.4s;
+          &:hover {
+            background-color: #000;
+            color: #fff;
+            border: 1px solid #000;
+          }
+          @include mob--screen {
+            min-width: 115px;
+            padding: 7px 10px;
+          }
+          &.Interior {
+            justify-content: center;
+          }
+        }
+      }
+      .modalContent {
+        p.causeText {
+          margin-top: 15px;
+          margin-bottom: 30px;
+          font-size: 15px;
+          color: #1279ff;
+        }
+        > div.content {
+          margin-top: 30px;
+        }
+        > div.introText {
+          position: relative;
+          padding: 20px;
+          background-color: rgb(241, 241, 239);
+          border-radius: 15px;
+          margin-top: 30px;
+          @include mob--screen {
+            padding: 15px;
+            margin-top: 15px;
+          }
+          > p {
+            position: relative;
+            font-size: 16px;
+            line-height: 1.4;
+            + p {
+              margin-top: 15px;
+            }
+            @include mob--screen {
+              font-size: 15px;
+            }
+          }
+        }
+        .projectImage {
+          margin-top: 25px;
+          border: 1px solid #ddd;
+          border-radius: 15px;
+          overflow: hidden;
+          img {
+            width: 100%;
+          }
+        }
+        h3.contentTit {
+          font-size: 18px;
+          margin-bottom: 15px;
+          // font-weight: 500;
+        }
+        .characteristic {
+          margin-top: 30px;
 
-					.listStyle1 {
-						> li {
-							position: relative;
-							padding-left: 10px;
-							&::after {
-								content: "";
-								position: absolute;
-								top: 5px;
-								left: 0;
-								width: 4px;
-								height: 4px;
-								border-radius: 100%;
-								background-color: #000;
-							}
-							+ li {
-								margin-top: 12px;
-								@include mob--screen {
-									margin-top: 10px;
-								}
-							}
-							@include mob--screen {
-								font-size: 15px;
-							}
-						}
-						.listStyle2 {
-							margin-top: 10px;
-							> li {
-								position: relative;
-								font-size: 15px;
-								padding-left: 10px;
-								line-height: 1.4;
-								&::after {
-									content: "";
-									position: absolute;
-									top: 10px;
-									left: 0;
-									width: 4px;
-									height: 1px;
-									background-color: #000;
-								}
-								&:not(:first-child) {
-									margin-top: 7px;
-								}
-							}
-						}
-					}
-				}
-				.skill {
-					.skillTree {
-						display: flex;
-						flex-wrap: wrap;
-						gap: 10px;
-						> li {
-							padding: 5px 10px;
-							border: 1px solid #000;
-							border-radius: 5px;
-						}
-					}
-				}
-				.reviewBox {
-					border: 2px solid #ccc;
-					padding: 15px;
-					border-radius: 15px;
-					> p {
-						line-height: 1.4;
-					}
-				}
-			}
-		}
-	}
+          .listStyle1 {
+            > li {
+              position: relative;
+              padding-left: 10px;
+              &::after {
+                content: "";
+                position: absolute;
+                top: 5px;
+                left: 0;
+                width: 4px;
+                height: 4px;
+                border-radius: 100%;
+                background-color: #000;
+              }
+              + li {
+                margin-top: 12px;
+                @include mob--screen {
+                  margin-top: 10px;
+                }
+              }
+              @include mob--screen {
+                font-size: 15px;
+              }
+            }
+            .listStyle2 {
+              margin-top: 10px;
+              > li {
+                position: relative;
+                font-size: 15px;
+                padding-left: 10px;
+                line-height: 1.4;
+                &::after {
+                  content: "";
+                  position: absolute;
+                  top: 10px;
+                  left: 0;
+                  width: 4px;
+                  height: 1px;
+                  background-color: #000;
+                }
+                &:not(:first-child) {
+                  margin-top: 7px;
+                }
+                &.no-after {
+                  &::after {
+                    display: none;
+                  }
+                }
+                > p {
+                  margin-bottom: 3px;
+                }
+              }
+            }
+          }
+        }
+        .skill {
+          .skillTree {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            > li {
+              padding: 5px 10px;
+              border: 1px solid #000;
+              border-radius: 5px;
+            }
+          }
+        }
+        .reviewBox {
+          border: 2px solid #ccc;
+          padding: 15px;
+          border-radius: 15px;
+          > p {
+            line-height: 1.4;
+          }
+        }
+      }
+    }
+  }
 }

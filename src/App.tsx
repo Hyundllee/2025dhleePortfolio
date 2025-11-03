@@ -11,7 +11,7 @@ const App: React.FC = () => {
       id: "nicebizinfo",
       period: "2024.12 - 2025.05 ~ 웹 접근성 인증 마크 단독취득",
       imgSrc: "/assets/images/thumImg_nicebizinfo.png",
-      title: "나이스비즈인포 / Nuxt3 + Quasar",
+      title: "나이스비즈인포 / Nuxt3 + Quasar + 접근성 마크",
       link: "https://www.nicebizinfo.com/cm/CM0100M001GE.nice",
     },
     {
