@@ -86,9 +86,9 @@ const Portfolio: React.FC<PortfolioProps> = ({ portfolioList }) => {
 							PORTFOLIO<span></span>
 						</h2>
 						<p>
-							실무를 통해 사랑과 정성을 담은 결과물들입니다. <br />
-							또한 실무에서 경험하지 못한 부분들은 개인적으로 <br /> 학습해가며 부족한 부분을 메우려 계속
-							정진 중입니다.
+							지금까지 끊임없이 고민하고 배우며 만들어 온 결과물들입니다. <br />
+							단순히 기능 구현에 그치지 않고, 더 나은 사용자 경험과 안정적인 코드를 위해 지속적으로 고민하고 개선해 왔습니다. <br />
+							이 포트폴리오는 그 과정 속에서 성장한 결과물들입니다.
 						</p>
 					</div>
 					<div className="portfolioList">

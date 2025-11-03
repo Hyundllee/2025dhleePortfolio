@@ -10,7 +10,7 @@ export default function Experience() {
 						<div className="careerBox">
 							<div className="titBox">
 								<h4 className="companyTit">(주) 다름</h4>
-								<span className="year">2024.12 - 2025.05 ~</span>
+								<span className="year">2024.12 - 2025.~</span>
 							</div>
 							<div className="titBox2">
 								<p className="positionTit">퍼블리싱 팀 / 선임</p>
