@@ -48,7 +48,7 @@ const NiceBizinfo: React.FC<PortfoliopageProps> = () => {
               <li>
                 <p>접근성 인증 완료</p>
                 <img
-                  src="/src/assets/images/contents/bizinfo-image01.png"
+                  src="/assets/images/contents/bizinfo-image01.png"
                   alt="웹접근성마크 인증 이미지"
                   className="wd-100"
                 />
