@@ -31,7 +31,10 @@ const AboutMe = () => {
                 오늘도 보람과 자부심을 느끼며 개발합니다.
               </p>
             </div>
-            <a
+            <a href="/assets/이동현_이력서.docx" className="aboutMore" download>
+              <span>이력서 다운로드</span>
+            </a>
+            {/* <a
               href="https://www.rallit.com/resumes/8233@azazs000/%EC%9D%B4%EB%8F%99%ED%98%84"
               target="_blank"
               className="aboutMore"
@@ -47,7 +50,7 @@ const AboutMe = () => {
                 <span>경력기술서 보기</span>
               </a>
               <p>&#8251; KOSA 정식 인증완료 프로젝트 모음입니다.</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
